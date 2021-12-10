@@ -1,6 +1,13 @@
 var navBar1 = document.createElement('NAV');
-navBar1.innerText = "Home";
+var a1 = document.createElement('a');
+navBar1.appendChild(a1);
+a1.innerText = "Home";
+var a2 = document.createElement('a');
+navBar1.appendChild(a2);
+a2.innerText = "Menu";
 document.body.appendChild(navBar1);
+
+navBar1.style.display = 'flex'; navBar1.style.justifyContent= 'center' ; navBar1.style.justifyContent = "Space-evenly"
 
 var h1 = document.createElement('h1');
     h1.innerText = "Header1 tag in JS file";
@@ -9,25 +16,15 @@ var h1 = document.createElement('h1');
 var Para1 = document.createElement('p');
     Para1.innerText = "Paragraph in JS file"
         document.body.appendChild(Para1);
-
+``
 var div1 = document.createElement('div');
     var uList1 = document.createElement('ul');
-        var listItems0 = document.createElement('li');
-        var listItems1 = document.createElement('li');
-        var listItems2 = document.createElement('li');
-        var listItems3 = document.createElement('li');
-        var listItems4 = document.createElement('li');
-            listItems0.innerText = "Grapes";
-            listItems1.innerText = "Cherrys";
-            listItems2.innerText = "Mangos";
-            listItems3.innerText = "Apples";
-            listItems4.innerText = "Bananas";
-
-uList1.appendChild(listItems0);
-uList1.appendChild(listItems1);
-uList1.appendChild(listItems2);
-uList1.appendChild(listItems3);
-uList1.appendChild(listItems4);
+    var itemArr = ["Grapes", "Cherrys", "Mangos", "Apples", "Bananas"];
+    for (var x = 0; x < itemArr.length; x++ ){
+        var listItems = document.createElement('li');
+        listItems.innerText = itemArr[x];
+        uList1.appendChild(listItems);
+    }
     div1.appendChild(uList1);
         document.body.appendChild(div1);
 
