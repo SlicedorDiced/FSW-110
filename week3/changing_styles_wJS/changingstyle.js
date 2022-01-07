@@ -8,4 +8,3 @@ for (var i = 0; i < 5; i++){
     header5.style.color = 'cornflowerblue';
     header5.style.fontFamily = 'sans-serif';
 }
-

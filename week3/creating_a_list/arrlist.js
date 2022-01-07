@@ -3,6 +3,7 @@ for ( var i = 0; i < 10; i++){
     const header = document.createElement('h1');
     header.innerText = "Hello World";
     document.body.appendChild(header);
+    header.style.color = "red";
 }
 
 
@@ -13,6 +14,7 @@ for ( var i = 0; i < nameArr.length; i++){
     var Items = document.createElement('li');
     Items.innerText = nameArr[i];
     nameList.appendChild(Items);
+    nameList.style.color = 'green';
 }
 div.appendChild(nameList);
     document.body.appendChild(div);
