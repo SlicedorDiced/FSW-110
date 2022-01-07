@@ -4,6 +4,8 @@ for ( var i = 0; i < 10; i++){
     header.innerText = "Hello World";
     document.body.appendChild(header);
 }
+
+
 var div = document.createElement('div');
     var nameList = document.createElement('ul');
     var nameArr = ['steve', 'larry','joe','shirley','steph','nate','rick','emily'];
@@ -14,5 +16,3 @@ for ( var i = 0; i < nameArr.length; i++){
 }
 div.appendChild(nameList);
     document.body.appendChild(div);
-
-    
