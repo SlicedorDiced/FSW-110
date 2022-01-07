@@ -12,7 +12,6 @@ navBar1.style.display = 'flex'; navBar1.style.justifyContent= 'center' ; navBar1
 var h1 = document.createElement('h1');
     h1.innerText = "Header1 tag in JS file";
         document.body.appendChild(h1)
-
 var Para1 = document.createElement('p');
     Para1.innerText = "Paragraph in JS file"
         document.body.appendChild(Para1);
