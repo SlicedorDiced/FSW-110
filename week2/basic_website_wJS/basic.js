@@ -15,7 +15,6 @@ var h1 = document.createElement('h1');
 var Para1 = document.createElement('p');
     Para1.innerText = "Paragraph in JS file"
         document.body.appendChild(Para1);
-``
 var div1 = document.createElement('div');
     var uList1 = document.createElement('ul');
     var itemArr = ["Grapes", "Cherrys", "Mangos", "Apples", "Bananas"];
