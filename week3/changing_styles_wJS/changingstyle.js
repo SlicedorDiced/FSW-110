@@ -1,6 +1,6 @@
 for (var i = 0; i < 5; i++){
     const header5 = document.createElement('h2');
-    header5.innerText = "Changing Styles; What ever text I want";
+    header5.innerText = "Changing Styles; What ever text I want. New !";
     document.body.appendChild(header5);
     header5.classList.add('border');
     header5.style.fontSize = '20px';
