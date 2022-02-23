@@ -42,15 +42,14 @@ window.addEventListener('keydown', checkKeyPress);
 function checkKeyPress(key){
     if(key.keyCode === 87){
         squareContainer.style.backgroundColor = "white"};
-        if(key.keyCode === 71){
+    if(key.keyCode === 71){
             squareContainer.style.backgroundColor = "green"};
-            if(key.keyCode === 89){
-                squareContainer.style.backgroundColor = "yellow"};
-                if(key.keyCode === 66){
-                    squareContainer.style.backgroundColor = "blue"};
-                    if(key.keyCode === 82){
-                        squareContainer.style.backgroundColor = "red"};
-                        if(key.keyCode === 80){
-                            squareContainer.style.backgroundColor = "purple"};
-
-                        };
+    if(key.keyCode === 89){
+            squareContainer.style.backgroundColor = "yellow"};
+    if(key.keyCode === 66){
+        squareContainer.style.backgroundColor = "blue"};
+    if(key.keyCode === 82){
+            squareContainer.style.backgroundColor = "red"};
+    if(key.keyCode === 80){
+            squareContainer.style.backgroundColor = "purple"};
+};
