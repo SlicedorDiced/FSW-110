@@ -1,3 +1,48 @@
 *{
-    background-color:brown;
+margin: 0 auto;
+box-sizing: border-box;
+border: 1px solid black;
+background-color: rgb(198, 198, 198);
+max-width: 550px;
+}
+.calContainer{
+background-color: gray;
+}
+.h2{   
+display:flex;
+margin:0 7.5%;
+align-items: center;
+border-radius: 25px;
+justify-content: space-around;
+max-width: 200px;
+background-color: rgb(97, 97, 242);
+font-size: smaller;
+}
+#additionDiv, #subtractionDiv,#multiDiv ,#divisionDiv {
+display: flex;
+margin: 0 auto;
+max-width: 500px;
+padding-top: 50px;
+flex-direction: row;
+background-color: rgb(213, 93, 93);
+}
+#addResult{
+font-size: smaller;
+color: purple;
+background-color: gray;
+} 
+#subResult{
+font-size: smaller;
+color: blue;
+background-color: gray;
+} 
+#mulResult{
+font-size: smaller;
+color: black;
+background-color: gray;
+} 
+#divResult{
+font-size: smaller;
+color: yellow;
+background-color: gray;
 }

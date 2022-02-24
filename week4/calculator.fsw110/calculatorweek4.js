@@ -4,7 +4,6 @@ const header = document.createElement('h2');
     header.style.color = 'black';
         document.body.appendChild(header);
 
-
 var addButton = document.getElementById('addButton')
     addButton.addEventListener('click', function(){
 var h1 = document.getElementById('addResult')
