@@ -11,28 +11,30 @@
 <body>
 
     <div id="container">
-        <form id="form" name="form">
-            <h2> Sign Up</h2>
-            <br />
+        <form action="#" id="form" name="form">
 
-            Create a Username: <input type="text" id="username" name="username" required />
+            <h2> Sign Up</h2>
+                <br/>
+
+   <label for="Username">Username: <input type="text" id="username" name="username" required /></label>
+            <br />
+            First name: <input type="text" id="firstname" name="firstname" required />
             <br />
             Email Address: <input type="email" id="email" name="email" required />
             <br />
-            Password: <input type="text" id="password" name="Password" required />
+            Password: <input type="password" id="password" name="password" required />
             <br />
-            Verify Password: <input type="text" id="verifiedPassword"
+            Verify Password: <input type="password" id="verifiedPassword"
                 name="verifiedPassword" required />
             <br />
-            <button id="button" name="submit">Submit</button>
+            <button id="btnSubmit" name="submit">Submit</button>
 
-            <!-- <input type="checkbox" id="checkbox" name="checkbox"> -->
+             <input type="checkbox" id="checkbox" name="checkbox"> <em> Check if you agree to terms & conditions</em> 
         </form>
     </div>
 
 
     <script src="modifyform.js"></script> 
-    <!-- <em>Check this box if you agree to terms & conditions.</em> -->
 </body>
 
 </html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using Other Types of HTML Input week5</title>
+</head>
+<body>
+    
+    <div class="formcontainer" id="formcontainer">
+        <form id="form" name="form">
+          <label for="name"><b>First Name:</b> <input type="text" name="firstName" id="firstName" required/></label>  
+            <br>
+           <label for="lastname"><b>Last Name:</b> <input type="text" name="lastName" id="lastName" required/></label> 
+            <br>
+           <label for="age"> <b>Age:</b> <input type="number" name="age" id="age" required/></label>
+            <br>
+
+                
+            <h3>  Have you been here before: </h3> 
+            <em>Yes</em> <input type="radio" name="haveyou" id="gender" value="Yes"/>
+            <em>No</em> <input type="radio" name="haveyou" id="gender" value="No"/> <br>
+                
+                
+            <h3>How well did we do:</h3>
+            <input type="radio" name="how" id="ok" value="ok"> <em>Ok</em>
+            <input type="radio" name="how" id="good" value="good"> <em>Good</em>
+            <input type="radio" name="how" id="amazing" value="amazing"> <em>Awesome</em>
+            <br/>
+            
+
+
+            <h3>Patients Symtoms:</h3>
+           <em>Fever</em> <input type="checkbox" name="symtoms" id="Fever" value="Fever"/>
+           <em>Cough</em> <input type="checkbox" name="symtoms" id="Cough" value="Cough"/>
+           <em>Neck Pain</em> <input type="checkbox" name="symtoms" id="NeckPain" value="NeckPain"/>
+           <em>Back Pain</em> <input type="checkbox" name="symtoms" id="BackPain" value="BackPain"/>
+
+        <br>
+
+            <button id="button" name="submit">Submit</button>
+            
+        </form>
+    </div>
+<script src="input.js" ></script>
+
+</body>
+</html>

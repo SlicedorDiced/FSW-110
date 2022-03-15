@@ -33,6 +33,7 @@ const form = document.form;
 if (password.value === verifiedPassword.value){
 
 form.addEventListener("submit", (event) => {
+    if (password.value === verifiedPassword.value)
     event.preventDefault()
     alert
     (`
