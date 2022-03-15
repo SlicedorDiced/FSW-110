@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="to-do-list.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+  <!--
+    <li class="completeditem">Completed Task</li>
+    <button type="button" id="clear" onclick="deleteAll()">Clear To Do List</button>
+    </form> -->
+
+    <h2>To-Do List</h2>
+
+     <form>
+
+    <div id="listContainer">
+
+      <input type="text" id="toDo" placeholder="Add To Do">
+
+      <span onclick="addTodo()" class="addBtn"> Add</span>
+    </div>
+
+    <ul id="todoList">
+      <li id="completeditem">To Do list item</li>
+    </ul>
+
+    <button type="button" id="clear-list" onclick="clearList()">Clear</button>
+
+  </form>
+    
+    <script src="to-do-list.js" ></script>
+</body>
+</html>
