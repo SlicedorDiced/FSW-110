@@ -11,8 +11,6 @@ function clearList(){
   var clearList = document.getElementsByTagName("ul");
     clearList[0].innerHTML = "";
 }
-
-
 function addTodo() {
   var list = document.createElement("li");
   var newItem = document.getElementById("toDo").value;
@@ -33,9 +31,7 @@ for (i = 0; i < xremove2.length; i++) {
   listContainer.style.display = "none";
   }
 }
-
-
-  var txt = document.createTextNode(" X");
+var txt = document.createTextNode(" X");
   xremoveAdded.className = "remove";
   xremoveAdded.appendChild(txt);
   list.appendChild(xremoveAdded);
