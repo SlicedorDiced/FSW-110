@@ -37,8 +37,12 @@ form.addEventListener("submit", (event) => {
     event.preventDefault()
     alert
     (`
-    New user name is.. ${form.username.value}
-    password is... ${form.password.value}`);
+    First name: ${form.firstname.value}
+    User name: ${form.username.value}
+    Password: ${form.password.value}
+    Email: ${form.email.value}`
+    
+    );
     })
 }
 
